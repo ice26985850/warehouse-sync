@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: warehouse-sync
+    env: node
+    plan: free
+    buildCommand: cd server && npm install
+    startCommand: cd server && node src/index.js
+    envVars:
+      - key: PORT
+        value: "3001"
+    autoDeploy: true

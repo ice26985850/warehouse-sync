@@ -1,0 +1,10 @@
+{
+  "name": "多倉庫即時同步管理系統",
+  "short_name": "倉庫管理",
+  "description": "跨平台多倉庫即時同步管理系統",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a73e8",
+  "icons": []
+}

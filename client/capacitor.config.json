@@ -1,0 +1,12 @@
+{
+  "appId": "com.scpo5.warehousesync",
+  "appName": "多仓库同步管理",
+  "webDir": "dist",
+  "server": {
+    "cleartext": true,
+    "allowNavigation": ["*"]
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
